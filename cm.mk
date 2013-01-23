@@ -1,5 +1,7 @@
 $(call inherit-product, device/samsung/t769/full_t769.mk)
 
+$(call inherit-product, device/samsung/celox-common/celox-common.mk)
+
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/gsm.mk)
 
